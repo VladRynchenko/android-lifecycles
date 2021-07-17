@@ -75,6 +75,7 @@ public class LocationActivity extends AppCompatActivity {
             textView.setText(location.getLatitude() + ", " + location.getLongitude());
         }
 
+
         @Override
         public void onStatusChanged(String provider, int status, Bundle extras) {
         }

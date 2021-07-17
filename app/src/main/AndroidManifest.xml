@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
   ~ Copyright 2019, The Android Open Source Project
   ~
   ~ Licensed under the Apache License, Version 2.0 (the "License");
@@ -42,19 +41,23 @@
             android:label="LC Step2">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
         <activity
             android:name="com.example.android.lifecycles.step3.ChronoActivity3"
             android:label="LC Step3">
             <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
         <activity
             android:name="com.example.android.lifecycles.step3_solution.ChronoActivity3"
             android:label="LC Step3 Sol">
+
             <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
@@ -62,6 +65,7 @@
             android:name="com.example.android.lifecycles.step4_solution.LocationActivity"
             android:label="LC Step4">
             <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
@@ -69,6 +73,7 @@
             android:name="com.example.android.lifecycles.step4.LocationActivity"
             android:label="LC Step4">
             <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
@@ -76,6 +81,7 @@
             android:name="com.example.android.lifecycles.step5.Activity_step5"
             android:label="LC Step5">
             <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
@@ -83,6 +89,7 @@
             android:name="com.example.android.lifecycles.step5_solution.Activity_step5"
             android:label="LC Step5 Sol">
             <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
@@ -90,6 +97,7 @@
             android:name="com.example.android.lifecycles.step6.SavedStateActivity"
             android:label="LC Step6">
             <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
@@ -97,6 +105,7 @@
             android:name="com.example.android.lifecycles.step6_solution.SavedStateActivity"
             android:label="LC Step6 Sol">
             <intent-filter>
+                <category android:name="android.intent.category.LAUNCHER" />
                 <action android:name="android.intent.action.MAIN" />
             </intent-filter>
         </activity>
